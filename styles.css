@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald";
+  margin: 0;
+  padding: 0; }
+
+.no-gutter > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0; }
+
+nav.navbar {
+  margin: 0;
+  padding: 0;
+  border-radius: 0 !important;
+  background: #333; }
+  nav.navbar .navbar-brand {
+    font-family: 'Oswald';
+    font-size: 30px; }
+
+#banner {
+  height: calc(100% - 50px); }
+  #banner .banner {
+    position: relative;
+    height: 100%;
+    background: url("../images/sfmist.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; }
+    #banner .banner .banner-overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.3); }
+    #banner .banner .banner-content {
+      text-align: center;
+      padding-top: 150px;
+      color: whitesmoke; }
+      #banner .banner .banner-content .evil-logo {
+        width: 100px;
+        height: auto; }
+      #banner .banner .banner-content h1 {
+        font-family: "Oswald";
+        font-size: 80px;
+        text-shadow: 2px 2px 5px black; }
+      #banner .banner .banner-content p {
+        font-size: 30px;
+        text-shadow: 1px 1px 3px black; }
+      #banner .banner .banner-content span {
+        font-size: 20px;
+        color: whitesmoke; }
+      #banner .banner .banner-content a {
+        text-decoration: none;
+        color: #333;
+        text-shadow: 1px 1px 1px #fff; }
+
+#projects {
+  height: auto; }
+  #projects .box {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden; }
+  #projects .box-img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 100%; }
+  #projects .box-overlay-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(251, 30, 0, 0.4); }
+    #projects .box-overlay-1 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-overlay-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(244, 241, 16, 0.4); }
+    #projects .box-overlay-2 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-overlay-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(237, 51, 202, 0.4); }
+    #projects .box-overlay-3 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-overlay-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(184, 221, 35, 0.4); }
+    #projects .box-overlay-4 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-overlay-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(121, 17, 224, 0.4); }
+    #projects .box-overlay-5 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-overlay-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(10, 240, 226, 0.4); }
+    #projects .box-overlay-6 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-overlay-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(13, 1, 1, 0.4); }
+    #projects .box-overlay-7 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-overlay-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(255, 107, 8, 0.5); }
+    #projects .box-overlay-8 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-overlay-9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background: rgba(59, 250, 72, 0.4); }
+    #projects .box-overlay-9 .fa {
+      color: black;
+      text-shadow: 0px 0px 5px #fff; }
+  #projects .box-text {
+    color: whitesmoke;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #projects .box:hover .box-overlay {
+    opacity: 1;
+    transform: scale(1.5); }
+
+#skill-set {
+  height: auto; }
+  #skill-set .box {
+    color: whitesmoke;
+    height: 400px;
+    text-align: center; }
+    #skill-set .box h3 {
+      margin: 0;
+      padding: 0;
+      padding-top: 30px;
+      font-family: "Oswald";
+      font-size: 40px;
+      padding-bottom: 20px; }
+    #skill-set .box .fa {
+      color: #ec4232; }
+  #skill-set .evil-logo {
+    width: 150px;
+    height: auto; }
+  #skill-set .box-1 {
+    background: #333; }
+  #skill-set .box-2 {
+    background: slateblue; }
+    #skill-set .box-2 h3 {
+      font-size: 90px; }
+  #skill-set .box-3 {
+    background: #ec4232; }
+    #skill-set .box-3 .fa {
+      color: #333; }
+
+#skill-set-2 .box {
+  text-align: center;
+  background: whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 300px; }
+  #skill-set-2 .box h4 {
+    padding: 30px;
+    font-size: 20px; }
+  #skill-set-2 .box p {
+    margin: 0;
+    padding: 0; }
+
+#about {
+  text-align: center;
+  height: auto;
+  background: #333;
+  color: whitesmoke;
+  width: 100%; }
+  #about p {
+    width: 70%;
+    margin: 0 auto; }
+  #about h3 {
+    padding: 10px; }
+
+#about-extend {
+  text-align: center;
+  background: #ec4232;
+  color: #333;
+  width: 100%; }
+  #about-extend h3 {
+    padding: 10px; }
+  #about-extend ul, #about-extend li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+
+#contact {
+  text-align: center;
+  height: auto; }
+  #contact .box {
+    height: 350px; }
+    #contact .box h3 {
+      padding: 30px; }
+  #contact form {
+    margin: 0 auto;
+    width: 50%;
+    height: auto; }
+    #contact form #message {
+      width: 100%;
+      color: #333; }
+
+#footer {
+  margin-top: 70px;
+  text-align: center;
+  height: auto;
+  background: #333; }
+  #footer .fa {
+    padding: 5px;
+    color: #ec4232; }
+    #footer .fa:hover {
+      color: whitesmoke; }
+
+/*# sourceMappingURL=styles.css.map */
